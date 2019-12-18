@@ -1,5 +1,16 @@
 
+let player = "X";
+let turns = 0;
+let gameOver = false;
 
+function performLogic(buttonId,tileId) {
+    $(buttonId).hide();
+    $(tileId).html(player);
+}
+
+function changePlayer(turns,player){
+    
+}
 
 
 
